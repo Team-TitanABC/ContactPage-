@@ -1,0 +1,113 @@
+body {
+	background: black;
+	color: #ffffff;
+	font-family: arial;
+  }
+
+p  {
+	color: white;
+}
+
+h1, h2, h3 {
+	color: white;
+} 
+
+
+.contactFormBox {
+	display: flex;
+	flex-direction: column;
+}
+
+
+#yellowLine {
+	
+	height: 23px;
+	background-color: #f4c70c
+}
+
+
+.title, h1{
+	text-align: center;
+	color:#f4c70c;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
+.contact {
+	display: flex;
+	justify-content: end;
+}
+
+.content {
+	
+	display: flex;
+	justify-content: space-between;
+
+}
+
+link {
+	color:#f4c70c
+}
+
+/* Css for the form */
+.messageBox {
+	position: relative;
+	top: 45px;
+}
+
+#mTitle {
+	display: flex;
+	justify-content: start;
+	position: relative;
+	top: 20px;
+    color: #f4c70c;
+}
+.userEmail {
+    display: flex;
+    flex-direction: column;
+    width: 148px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+
+}
+
+#message {
+    height: 163px;
+    margin-bottom: 20px;
+}
+
+.nameAndLast {
+    display: flex;
+    flex-direction: column;
+    width: 148px;
+
+}
+
+.fullName {
+    display: flex;
+
+
+}
+
+#subtitle {
+	display: flex;
+    position: relative;
+    top: 20px;
+
+}
+
+#labelName {
+text-align: end;
+
+color: #ffffff;
+} 
+
+/* end css form */
